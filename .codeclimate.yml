@@ -1,7 +1,12 @@
-languages:
-  Ruby: false
-  JavaScript: true
-  PHP: false
-  Python: false
-exclude_paths:
-  - "deps/**/*"
+engines:
+  csslint:
+    enabled: false
+  eslint:
+    enabled: true
+  fixme:
+    enabled: true
+ratings:
+  paths:
+  - "src/scripts/**/*.js"
+exclude_paths: ["deps/**/*"]
+
