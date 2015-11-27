@@ -11,3 +11,4 @@ ratings:
   - "src/scripts/**/*.js"
 exclude_paths:
   - deps/
+  - dist/
