@@ -254,3 +254,5 @@ env:
   amd: true
   commonjs: true
   es6: true
+globals:
+  Parse: true
