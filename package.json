@@ -1,0 +1,14 @@
+{
+  "name": "cjska",
+  "version": "0.0.1",
+  "description": "Contest Judging System for KA",
+  "keywords": [
+    "cjska"
+  ],
+  "author": "Gigabyte Giant <brynden.bielefeld@hotmail.com>",
+  "repository": "https://github.com/sparkstudios/CJSKA.git",
+  "homepage": "https://github.com/sparkstudios/CJSKA",
+  "devDependencies": {
+    "gulp": "^3.9.0"
+  }
+}
