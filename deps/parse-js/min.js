@@ -1,1 +1,0 @@
-<html><body>You are being <a href="https://parse.com/downloads/javascript/parse-1.6.7.min.js">redirected</a>.</body></html>
