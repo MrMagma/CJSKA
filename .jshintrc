@@ -5,6 +5,7 @@
     "unused": true,
     "predef": [
         "window",
-        "module"
+        "module",
+        "Parse"
     ]
 }
