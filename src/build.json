@@ -1,5 +1,7 @@
 {
     "scripts": [
-        
+        "helpers/setupPage.js",
+        "helpers/helpers.js",
+        "main.js"
     ]
 }
