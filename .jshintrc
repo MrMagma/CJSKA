@@ -2,5 +2,9 @@
     "esnext": true,
     "jquery": true,
     "undef" : true,
-    "unused": true
+    "unused": true,
+    "predef": [
+        "window",
+        "module"
+    ]
 }
