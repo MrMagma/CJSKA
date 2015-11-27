@@ -1,6 +1,7 @@
 var gulp       = require("gulp");
 var sass       = require("gulp-sass");
 var jshint     = require("gulp-jshint");
+var eslint     = require("gulp-eslint");
 var browserify = require("browserify");
 var babelify   = require("babelify");
 var source     = require("vinyl-source-stream");
@@ -33,9 +34,13 @@ gulp.task("scripts", function() {
             .pipe(gulp.dest(buildDir));
     }
 
-    return gulp.src("./src/scripts/**/*.js")
-        .pipe(jshint())
-        .pipe(jshint.reporter("default"));
+    // return gulp.src("./src/scripts/**/*.js")
+    //     .pipe(jshint())
+    //     .pipe(jshint.reporter("default"));
+
+    return gulp.src([ "./src/scripts/**/*.js", "!node_modules/**/"])
+        .pipe(eslint())
+        .pipe(eslint.format());
 });
 
 gulp.task("default", function() {

@@ -9,12 +9,13 @@
   "repository": "https://github.com/sparkstudios/CJSKA.git",
   "homepage": "https://github.com/sparkstudios/CJSKA",
   "devDependencies": {
+    "babelify": "^6.3.0",
+    "browserify": "^11.2.0",
     "gulp": "^3.9.0",
+    "gulp-eslint": "^1.1.1",
     "gulp-jshint": "^2.0.0",
     "gulp-sass": "^2.1.0",
     "jshint": "^2.8.0",
-    "babelify": "^6.3.0",
-    "browserify": "^11.2.0",
     "vinyl-source-stream": "^1.1.0"
   }
 }
