@@ -1,5 +1,6 @@
 {
     "scripts": [
+        "helpers/authentication.js",
         "helpers/setupPage.js",
         "helpers/helpers.js",
         "main.js"
