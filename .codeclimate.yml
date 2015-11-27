@@ -1,14 +1,13 @@
 ---
 engines:
   csslint:
-    enabled: true
+    enabled: false
   eslint:
     enabled: true
   fixme:
     enabled: true
 ratings:
   paths:
-  - "**.css"
-  - "**.js"
-  - "**.jsx"
-exclude_paths: []
+  - "src/scripts/**/*.js"
+exclude_paths:
+  - deps/
