@@ -12,3 +12,4 @@ ratings:
 exclude_paths:
   - deps/
   - dist/
+  - "gulpfile.js"
