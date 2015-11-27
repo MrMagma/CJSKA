@@ -22,10 +22,13 @@ gulp.task("scripts", function() {
 
     for (var i = 0; i < scripts.length; i++) {
         var filePath = "./src/scripts/" + scripts[i];
-        
+
         browserify(filePath, { debug: true })
             .transform(babelify)
             .bundle()
+                .on("error", function(err) {
+                    console.log(err.message);
+                })
             .pipe(source(filePath))
             .pipe(gulp.dest(buildDir));
     }
