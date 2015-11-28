@@ -17,7 +17,7 @@ module.exports = {
             newUser.set("email"   , _mail);
 
             newUser.signUp(null, {
-                success: function(data) {
+                success: function() {
                     Parse.User.logIn(_user, _conf, {
                         success: function() {
                             window.location.reload();
@@ -39,7 +39,7 @@ module.exports = {
         console.log(_name, _pass);
 
         Parse.User.logIn(_name, _pass, {
-            success: function(data) {
+            success: function() {
                 window.location.reload();
             },
             error: function(data, error) {
