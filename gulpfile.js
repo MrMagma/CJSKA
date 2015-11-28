@@ -43,7 +43,7 @@ gulp.task("scripts", function() {
         .pipe(eslint.format());
 });
 
-gulp.task("default", function() {
+gulp.task("default", ["scripts", "styles"], function() {
     var scripts = gulp.watch("./src/scripts/**/*.js", [
         "scripts"
     ]);
