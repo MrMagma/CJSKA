@@ -1,16 +1,35 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>CJSKA</title>
+        <title>Home - CJSKA</title>
 
         <link rel="stylesheet" href="./deps/bootstrap/bootstrap.min.css" />
         <link rel="stylesheet" href="./deps/bootstrap/material-design/bootstrap-material-design.min.css" />
         <link rel="stylesheet" href="./deps/bootstrap/material-design/ripples.min.css" />
+        <link rel="stylesheet" href="./dist/css/main.css" />
     </head>
     <body>
-        <div class="container-fluid">
-            <p>Coming soon.</p>
+        <div class="container" data-area="main">
+            <ul class="nav nav-tabs" data-area="site-navigation">
+                <li role="presentation" class="active"><a href="index.html">Home</a></li>
+                <li role="presentation"><a href="credits.html">Credits</a></li>
+            </ul>
+            <div class="jumbotron">
+                <div class="container text-center">
+                    <h3>Contest Judging System</h3>
+                    <small class="text-muted">by <a href="http://sparkstudios.org/">Team Spark</a></small>
+                    <p><span data-area="contest-action">Judge</span> contests with ease.</p>
+                    <hr>
+                    <div data-area="get-started">
+                        <h4>Get started</h4>
+                        <button class="btn btn-primary" name="signInBtn">Sign In</button>
+                        <small class="text-muted">or</small>
+                        <button class="btn btn-primary" name="signUpBtn">Sign Up</button>
+                    </div>
+                </div>
+            </div>
         </div>
+
         <!-- TODO (Everyone): Place **all** scripts below this line! -->
         <script src="./deps/jquery/jquery-2.1.4.min.js"></script>
         <script src="./deps/bootstrap/bootstrap.min.js"></script>
