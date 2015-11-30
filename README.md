@@ -9,7 +9,6 @@ Without these people, this project would be nothing.
 
 | Username       | Title(s)                     | Github Profile Link                       |
 |----------------|------------------------------|-------------------------------------------|
-| Gigabyte Giant | Project Lead, Lead Developer | [Link](https://github.com/Gigabyte-Giant) |
 | JavascriptFTW  | Lead Designer, Developer     | [Link](https://github.com/JavascriptFTW)  |
 | VirusKA        | Designer                     | [Link](https://github.com/VirusKA)        |
 | MikaalSky      | Developer                    | [Link](https://github.com/MikaalSky)      |
