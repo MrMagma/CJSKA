@@ -133,6 +133,15 @@ module.exports = function() {
                             .append(
                                 $("<button>")
                                     .addClass("btn btn-primary")
+                                    .text("Don't Have an Account Yet? Sign up!")
+                                    .on("click", () => {
+                                        $("#loginModal").modal("hide");
+                                        $("#signupModal").modal();
+                                    })
+                            )
+                            .append(
+                                $("<button>")
+                                    .addClass("btn btn-primary")
                                     .text("Submit")
                                     .on("click", () => {
                                         authentication.login();

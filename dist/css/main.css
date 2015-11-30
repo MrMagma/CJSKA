@@ -13,3 +13,35 @@ footer {
 
 .center-text {
   text-align: center; }
+
+ul.nav-tabs > li {
+  margin-bottom: 0;
+  transition: background-color 0.3s ease;
+  height: 100%; }
+
+ul.cjs-nav.nav-tabs > li > * {
+  display: inline-block;
+  line-height: 1.5em; }
+
+ul.nav-tabs > li.active {
+  background-color: rgba(0, 0, 0, 0.12); }
+
+ul.nav-tabs > li:not(.active):hover {
+  background-color: rgba(0, 0, 0, 0.12); }
+
+.cjs-nav {
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 3em;
+  position: fixed;
+  background-color: #FFC107;
+  box-shadow: 0 0 10px 0 black;
+  border-bottom: none;
+  font-size: 16px; }
+
+.cjs-nav-phantom {
+  top: 0;
+  left: 0;
+  right: 0;
+  margin-bottom: 5em; }

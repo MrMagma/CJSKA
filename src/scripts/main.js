@@ -4,6 +4,7 @@ helpers.setupPage();
 
 if (Parse.User.current() !== null) {
     // TODO (Gigabyte Giant): Redirect to logged in page.
+    // TODO (Joshua Gammage): Auto redirects are annoying so find another way.
     window.location.href = "client/";
 }
 
