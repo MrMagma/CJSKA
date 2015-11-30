@@ -1,7 +1,19 @@
-body {
-    background-color: black;
+html {
+    position: relative;
+    min-height: 100%;
+}
 
-    p {
-        color: white;
-    }
+body {
+    margin-bottom: 50px;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    height: 25px;
+    width: 100%;
+}
+
+.center-text {
+    text-align: center;
 }

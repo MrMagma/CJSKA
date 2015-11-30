@@ -36,8 +36,6 @@ module.exports = {
         let _name = $("#loginModal [name=username]").val();
         let _pass = $("#loginModal [name=password]").val();
 
-        console.log(_name, _pass);
-
         Parse.User.logIn(_name, _pass, {
             success: function() {
                 window.location.reload();

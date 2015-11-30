@@ -1,8 +1,13 @@
 {
     "scripts": [
+        "components/authModals.js",
+        "components/footer.js",
+        "components/components.js",
         "helpers/authentication.js",
         "helpers/setupPage.js",
         "helpers/helpers.js",
-        "main.js"
+        "main.js",
+        "client.js",
+        "credits.js"
     ]
 }
